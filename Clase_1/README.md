@@ -22,5 +22,13 @@ Finalmente instalar Webots con el siguiente comando
 ```bash
 sudo apt-get install webots
 ```
+Instalacion directa desde un package Debian (extension .deb)
+Descargar el archivo . deb del siguiente [link](https://cyberbotics.com/#download):
+
+En la Ubicacion del archivo ejecutar el siguiente comando
+```bash
+sudo apt install ./webots_2023a_amd64.deb
+```
+
 
 
