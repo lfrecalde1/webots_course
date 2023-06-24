@@ -30,5 +30,15 @@ En la Ubicacion del archivo ejecutar el siguiente comando
 sudo apt install ./webots_2023a_amd64.deb
 ```
 
+Configurar webots para la compatibilidad con python.
+Ejecutar los siguientes comandos
+```bash
+echo "export WEBOTS_HOME=/usr/local/webots" >> ~/.bashrc
+```
+```bash
+echo "export PYTHONPATH=/usr/local/webots/lib/controller/python:$PYTHONPATH" >> ~/.bashrc
+
+```
+
 
 
