@@ -65,6 +65,14 @@ Ejecutar Visual Studio Code
 code .
 ```
 
+## Installar librerias python
+Ejecutar los siguientes comandos en el terminal, los siguientes comandos instalar las librerias de numpy y scipy, las cuales son utilizadas para computo matricial
+```bash
+pip install numpy
+pip install scipy==1.7.2
+```
+
+
 
 
 
