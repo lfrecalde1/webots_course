@@ -37,7 +37,9 @@ echo "export WEBOTS_HOME=/usr/local/webots" >> ~/.bashrc
 ```
 ```bash
 echo "export PYTHONPATH=/usr/local/webots/lib/controller/python:$PYTHONPATH" >> ~/.bashrc
-
+```
+```bash
+source ~/.bashrc
 ```
 
 
